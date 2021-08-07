@@ -1,4 +1,15 @@
+.laptop{
+    display: none;
+}
+.tablet {
+    display: none;
+  }
+.mobile{
+      display: none;
+  }
+
 body{
+
     color: #40514E;
     margin: 0;
     text-align: center;
@@ -29,7 +40,7 @@ h1{
 .middle-cloud{
     position: absolute;
     left: 50px;
-    bottom: 400px;
+    top: 200px;
 }
 h2{
     color: #66BFBF;
@@ -40,7 +51,7 @@ h2{
 }
 .intro{
     margin: auto;
-    width: 50%;
+    width: 65%;
 }
 h3{
     color:  #11999E;
@@ -52,14 +63,14 @@ h3{
 .bottom-cloud{
     position: absolute;
     right: 50px;
-    bottom: 250px;
+    top: 300px;
 }
 .land{
     width: 75%;
 }
 
 .skill-row{
-    width: 50%;
+    width: 60%;
     line-height: 2;
     margin: 100px auto 100px auto;
     text-align: left;
@@ -103,10 +114,9 @@ a{
 .footer-link{
     position: relative;
     top: 60px;
-    margin: 70px;
+    margin: 5%;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    text-decoration: none;
 
 }
 .footer-link:hover{
@@ -153,3 +163,125 @@ width:140px;
 	position:relative;
 	top:1px;
 }
+
+/* LAPTOP */
+
+@media screen and (max-width: 1024px) {
+    .desktop{
+        display: none;
+    }
+    .laptop{
+        display: inline;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .middle-cloud{
+        position: absolute;
+        left: 50px;
+        top: 200px;
+    }
+    .bottom-cloud{
+        position: absolute;
+        right: 50px;
+        top: 300px;
+    }
+    .intro{
+        margin: auto;
+        width: 100%;
+    }
+
+
+}
+
+/* TABLET */
+
+@media screen and (max-width: 768px) {
+    .desktop{
+        display: none;
+    }
+    .laptop{
+        display: none;
+    }
+    .tablet{
+        display: inline;
+    }
+    .mobile{
+        display: none;
+    }
+
+    .middle-cloud{
+        position: absolute;
+        left: 5px;
+        top: 200px;
+    }
+    .bottom-cloud{
+        position: absolute;
+        right: 9px;
+        top: 300px;
+    }
+    .intro{
+        margin: auto;
+        width: 100%;
+    }
+    .skill-row{
+        width: 100%;
+    }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 425px) {
+    .desktop{
+        display: none;
+    }
+    .laptop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: inline;
+    }
+    .top-cloud{
+        position: absolute;
+        left: 90px;
+        top: 50px;
+    }
+    .middle-cloud{
+        position: absolute;
+        left: -110px;
+        top: 200px;
+
+    }
+    .bottom-cloud{
+        position: absolute;
+        right: 0px;
+        top: 350px;
+    }
+    .land{
+        width: 100%;
+    }
+    .intro{
+        margin: auto;
+        width: 100%;
+    }
+    .skill-row{
+        width: 100%;
+    }
+    .coding{
+        width: 35%;
+        float: right;
+        margin-right: 30px;
+    }
+    .reading{
+        width: 35%;
+        float: right;
+        margin-left: 30px;
+    }
+}
+ 
