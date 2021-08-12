@@ -7,13 +7,34 @@
 .mobile{
       display: none;
   }
-
+#title {
+    background-color: lightblue;
+}
 body{
-
     color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    overflow-x: hidden;
+}
+.container-fluid{
+    box-shadow: 0px -28px 30px #000;
+}
+.navbar-brand {
+    padding: 2%;
+    margin-left: 1.5rem;
+}
+a.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #66BFBF;
+    margin: 0 2.5rem;  
+}
+a.nav-link:hover {
+    color: white;
+}
+.navbar-toggler{
+    color: white
 }
 .top-container{
     padding: 70px 0 0 0;
@@ -28,7 +49,7 @@ body{
 }
 .top-cloud{
     position: absolute;
-    right: 400px;
+    left: 40%;
     top: 50px;
 }
 h1{
@@ -36,6 +57,7 @@ h1{
     font-size: 6.625rem;
     margin: 70px 0 0;
     font-family: 'Herr Von Muellerhoff', cursive;
+    font-weight: 650;
 }
 .middle-cloud{
     position: absolute;
@@ -145,16 +167,14 @@ a{
 	-webkit-border-bottom-left-radius:8px;
 	-moz-border-radius-bottomleft:8px;
 	border-bottom-left-radius:8px;
-text-indent:0;
 	display:inline-block;
 	color:#ffffff;
 	font-family: 'Montserrat', sans-serif;
 	font-size:15px;
 	font-weight: 300;
-height:50px;
+    height:60px;
 	line-height:50px;
-width:140px;
-	text-decoration:none;
+    width:140px;
 	text-align:center;
 	text-shadow:0px 1px 0px #3d768a;
 }.btn:hover {
