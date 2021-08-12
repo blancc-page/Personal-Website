@@ -22,7 +22,7 @@ body{
 }
 .navbar-brand {
     padding: 2%;
-    margin-left: 1.5rem;
+    margin-left: 0;
 }
 a.nav-link{
     font-family: 'Montserrat', sans-serif;
